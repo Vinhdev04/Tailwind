@@ -52,4 +52,42 @@
 
 ---
 
+**Extension**
+
+- <b>Taildwind CSS IntelliSense</b>
+- <b>PostCSS Language Support</b>
+- <b>Live Preview</b>
+
+---
+
+**Ôn tập Emmet**
+
+- <i>`https://docs.emmet.io/cheat-sheet/`</i>
+- <i>`Sibling: +` -> anh em liền kề nhau(và)</i>
+- <i>`Climb-up: ^` -> ra ngoài 1 cấp </i>
+- <i>`Grouping: ()` -> gom nhóm </i>
+- <i>`Child: >` -> con trực tiếp </i>
+- <i>`Multiplication: *` -> tạo với số lượng chi định </i>
+- <i>`Item numbering: $` -> tạo với số lượng chi định tăng dần (kết hợp với \*) </i>
+- <i>`[attribute]` -> truyền thuộc tính</i>
+- <i>`{content}` -> truyền nội dung </i>
+- Exam: `ul>li*5{item $}`<br>
+  ` <ul>`<br>
+  `     <li>item 1</li>`<br>
+  `     <li>item 2</li>`<br>
+  `     <li>item 3</li>`<br>
+  `     <li>item 4</li>`<br>
+  `     <li>item 5</li>`<br>
+  `</ul>`<br><br>
+- Exam: `ul>li*5[title=title$]`<br>
+  ` <ul>`<br>
+  `     <li title="title1"></li>`<br>
+  `     <li title="title2"></li>`<br>
+  `     <li title="title3"></li>`<br>
+  `     <li title="title4"></li>`<br>
+  `     <li title="title5"></li>`<br>
+  `  </ul>`<br>
+
+---
+
 ---
