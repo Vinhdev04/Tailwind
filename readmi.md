@@ -102,3 +102,10 @@
 - <b>Sử dụng Using PostCSS</b>
 
 ---
+
+### `Container` trong Tailwind CSS
+
+- <i>Dùng để giới hạn chiêu rộng tối đa của phần tử</i>
+- <i>Có thể tùy chinh theo ý</i>
+- <i></i>
+- ![breakpoint](./Docs/Images/breakpoint.png)
