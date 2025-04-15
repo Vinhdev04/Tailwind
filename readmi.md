@@ -90,4 +90,15 @@
 
 ---
 
+### Cài đặt Tailwind CSS
+
+- <b>Sư dụng link CDN</b>
+- <b>Sử dụng Tailwind CLI </b>
+- <i>B1: `Run: npm install tailwindcss @tailwindcss/cli`</i>
+- <i>B2: `Tạo folder src chứa file "input.css"`</i>
+- <i>B2: `Thêm @import "tailwindcss"; vào input.css`</i>
+- <i>B4: `Run: npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch` sẻ tạo ra file `output.css`</i>
+- <b>Sử dụng Vite</b>
+- <b>Sử dụng Using PostCSS</b>
+
 ---
