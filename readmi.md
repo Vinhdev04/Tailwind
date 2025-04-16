@@ -109,3 +109,19 @@
 - <i>Có thể tùy chinh theo ý</i>
 - <i></i>
 - ![breakpoint](./Docs/Images/breakpoint.png)
+
+---
+
+### `Color` trong Tailwind CSS
+
+**Syntaxt:**
+
+- <b>`prefix-color-shade`
+- <i> `prefix: bg,shadow,text,decoration,border,...`</i>
+- <i>`color: red,blue,green,...`</i>
+- <i>`shade: 100,200,....`. Màu trắng và đen không có `shade`</i>
+- <b>Custom Color: `text-[#name_color]`,`text-[rgb(name_color)],...`</b><br><br>
+- <i>`Code 01:` ![Color-01](./Docs/Images/color-01.png)</i><br><br>
+- <i>`Code 02:` ![Color-01](./Docs/Images/color-02.png)</i><br><br>
+- <i>`Code 03:` ![Color-01](./Docs/Images/color-03.png)</i><br><br>
+- <i>`Preview:` </i>![View](./Docs/Images/color-04.png)</i><br><br>
