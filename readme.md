@@ -1,3 +1,101 @@
+# 🌬️ Series Học Tailwind CSS - Thiết kế UI hiện đại siêu tốc
+
+- <b>Author: `@Vinhdev04`</b><br><br>
+![Tailwind CSS Banner](./Docs/Images/banner.png)
+
+> 💡 “Code nhanh, đẹp, chuẩn responsive với tiện ích cực mạnh từ Tailwind CSS”
+
+---
+
+## 📚 Giới thiệu
+
+**Tailwind CSS** là framework utility-first CSS giúp bạn xây dựng giao diện web cực kỳ nhanh chóng chỉ bằng cách gắn class vào HTML.  
+Series này sẽ giúp bạn:
+
+- Nắm chắc cách sử dụng class tiện ích
+- Hiểu tư duy thiết kế UI theo hệ thống
+- Tự tin thiết kế các giao diện đẹp – responsive – tối ưu
+- Xây dựng project thật bằng Tailwind
+
+---
+
+## 🧱 Cấu trúc Series
+
+| STT | Chủ đề            | Nội dung                                       |
+| --- | ----------------- | ---------------------------------------------- |
+| 1️⃣  | Cài đặt Tailwind  | Cấu hình với Vite, Webpack, CDN                |
+| 2️⃣  | Utility Classes   | Margin, Padding, Color, Font, Grid, Flex       |
+| 3️⃣  | Responsive Design | Breakpoints, hover, focus, dark mode           |
+| 4️⃣  | Component UI      | Card, Button, Navbar, Modal, Grid Layout       |
+| 5️⃣  | Plugin & Custom   | Tạo theme riêng, dùng plugin forms, typography |
+| 6️⃣  | Project mini      | Website landing page giới thiệu sản phẩm       |
+| 7️⃣  | Triển khai        | Xuất bản lên Vercel/Netlify                    |
+
+---
+
+## 🎯 Mục tiêu đạt được
+
+- ✅ Thành thạo Tailwind class phổ biến
+- ✅ Thiết kế UI đẹp, mobile-first
+- ✅ Xây dựng project hoàn chỉnh
+- ✅ Có nền tảng học tiếp Next.js + Tailwind
+
+---
+
+## 🖼️ Ví dụ hình ảnh
+
+### Giao diện responsive card
+
+![Tailwind Card UI](./Docs/Images/Tailwind-Card-UI.jpg)
+
+---
+
+## ⚙️ Yêu cầu trước khi học
+
+- Biết HTML & CSS cơ bản
+- Có tư duy bố cục UI đơn giản
+- Biết VSCode + Live Server
+
+---
+
+## 🔥 Tips học nhanh Tailwind
+
+- Dùng plugin Tailwind IntelliSense cho VSCode
+- Tập trung vào class layout đầu tiên: `flex`, `grid`, `space`, `gap`
+- Luyện code lại từ bản thiết kế Figma → HTML + Tailwind
+
+---
+
+## ⭐ **Đừng quên**: Nếu thấy hữu ích hãy ⭐ repo và chia sẻ nhé!
+
+---
+
+## 🎨 Dự án cuối khóa - Tailwind CSS
+
+---
+
+### 📌 Tên dự án: `<!-- điền tên dự án ở đây -->`
+
+---
+
+### 🖼️ Mục tiêu
+
+- Thiết kế **giao diện website hiện đại**, responsive
+- Sử dụng Tailwind CSS kết hợp với HTML/JS
+- Bố cục rõ ràng, đẹp mắt, dùng nhiều class layout
+
+---
+
+### 🧱 Cấu trúc dự án mẫu
+
+---
+
+### 💡 Gợi ý UI cần có
+
+> 🎯 Ưu tiên thiết kế đẹp mắt, có thể clone từ Figma template hoặc Dribbble
+
+---
+
 ### Taildwind Css
 
 ---
