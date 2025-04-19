@@ -1,7 +1,7 @@
 # 🌬️ Series Học Tailwind CSS - Thiết kế UI hiện đại siêu tốc
 
 - <b>Author: `@Vinhdev04`</b><br><br>
-![Tailwind CSS Banner](./Docs/Images/banner.png)
+  ![Tailwind CSS Banner](./Docs/Images/banner.png)
 
 > 💡 “Code nhanh, đẹp, chuẩn responsive với tiện ích cực mạnh từ Tailwind CSS”
 
@@ -74,9 +74,26 @@ Series này sẽ giúp bạn:
 
 ---
 
-### 📌 Tên dự án: `<!-- điền tên dự án ở đây -->`
+### 📌 Tên dự án: `Coffeestyle`
+
+#### Dự án 01
+
+- <b>`Link demo: ` </b><a>https://coffeestyle-template.webflow.io/</a>
 
 ---
+
+### 🧱 Template Design
+
+![Ảnh](./Docs/Images/design-01.png)
+![Ảnh](./Docs/Images/design-02.png)
+![Ảnh](./Docs/Images/design-03.png)
+![Ảnh](./Docs/Images/design-04.png)
+![Ảnh](./Docs/Images/design-05.png)
+![Ảnh](./Docs/Images/design-06.png)
+![Ảnh](./Docs/Images/design-07.png)
+![Ảnh](./Docs/Images/design-08.png)
+![Ảnh](./Docs/Images/design-09.png)
+![Ảnh](./Docs/Images/design-10.png)
 
 ### 🖼️ Mục tiêu
 
@@ -85,8 +102,6 @@ Series này sẽ giúp bạn:
 - Bố cục rõ ràng, đẹp mắt, dùng nhiều class layout
 
 ---
-
-### 🧱 Cấu trúc dự án mẫu
 
 ---
 
