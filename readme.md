@@ -238,3 +238,33 @@ Series này sẽ giúp bạn:
 - <i>`Code 02:` ![Color-01](./Docs/Images/color-02.png)</i><br><br>
 - <i>`Code 03:` ![Color-01](./Docs/Images/color-03.png)</i><br><br>
 - <i>`Preview:` </i>![View](./Docs/Images/color-04.png)</i><br><br>
+
+---
+
+### `Margin & Padding` trong Tailwind CSS
+
+**Syntaxt: `{property}{sides}-{size}`**
+
+- <i>`property: m,p` <-> margin,padding</i>
+- <i>`sides: t,b,s,e,x,y,blank` <-> top,bottom,start,end,horizontal,vertical, all 4 sides</i>
+- <i>`sizes: 0,1 -> default: 1 `<-> 0.25rem, 1rem = 16px </i>
+- <i>`auto` -> margin auto</i>
+- <b>Có thể sử dụng giá trị tùy ý(px,em,rem,..): `mt-[20px]` -> margin-top: 20px</b>
+
+**Sự khác biệt**
+
+- <i>Không có `class` với `margin breakpoint`. Thay vào đó sử dụng hệ thống `breakpoint kết hợp với utility-class`</i>
+  **Syntaxt: `<breakpoint>:<utility-class>`**
+- <b>Ví dụ:</b>
+- <i>`class="lg:m-4 md:m-2 sm:m-5"`</i>
+- <i>`class="lg:bg-blue-50 md:bg-blue-200 "`</i>
+
+---
+
+### `Space-x & Space-y` trong Tailwind CSS
+
+- <i>Dùng để tạo khoảng cách giữa phần tử con</i>
+- <i>`space-x` <-> `margin-right`</i>
+- <i>`space-y` <-> `margin-bottom`</i>
+- <i>`space-x-reverse` <-> `margin-left`</i>
+- <i>`space-y-reverse` <-> `margin-top`</i>
