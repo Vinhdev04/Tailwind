@@ -268,3 +268,50 @@ Series này sẽ giúp bạn:
 - <i>`space-y` <-> `margin-bottom`</i>
 - <i>`space-x-reverse` <-> `margin-left`</i>
 - <i>`space-y-reverse` <-> `margin-top`</i>
+
+---
+
+### `Sizing` trong Tailwind CSS
+
+#### `width`:
+
+- Thiết lập độ rộng cho phần tử
+- `1 rem = 16px, 0.25rem = 4px`
+- `1 spacing = 4px`
+
+- 1.  `w-<number>` <=> `width: calc(var(--spacing) * number)`
+
+  - Kích thước cố định
+  - Ví dụ: w-20 <=> width: 20 \* 4 = 80px
+
+- 2. `w-<fraction>` <=> `width: calc(<fraction> * 100%)`
+  - Chiếm bao nhiêu phần trăm so với thẻ cha chứa nó
+  - Ví dụ: w-1/2 <=> `width: 50%`
+  - Ví dụ: w-1/3 <=> `width: 33.33%`
+  - Chia theo phần nên ko linh hoạt nên sử dụng `w-[value];`
+- 3. `width-3xs -> 7xl` <=> `width: calc(var(--container-3xs))`
+- 4. `w-auto` <=> `width: auto`
+- 5. `w-full` <=> `width: 100%`
+  - Chiếm 100% chiều rộng thẻ cha
+- 6. `w-screen` <=> `width: 100vw`
+  - Chiếm 100% độ rộng khung nhìn (viewport width)
+  - Hạn chế dùng với các giá trị cố định -> `vỡ giao diện do các giá trị cố định gây ra`
+  - `Thẻ inline ko có tác dụng`
+- 7. `w-dvw` <=> `width: 100dvw`
+  - `dvw`: diagram viewport witdh
+  - Dynamic tự động giữa lvw và svw
+  - Ưu tiên sử dụng cho `mobile`
+  - Dùng khi chiều rộng màn hình thay đổi do thanh cuộn,bàn phím ảo,....
+- 8. `w-lvw` <=> `width: 100lvw`
+  - `lvw`: large viewport witdh
+  - Layout toàn màn hình, không bị co lại dù có thanh công cụ
+- 9. `w-svw` <=> `width: 100svw`
+  - `svw`: small viewport witdh
+  - Layout toàn màn hình, bị co lại để tránh bị che khi hiện bàn phim/thanh địa chi,..
+- 10. `Tùy chỉnh giá trị width`
+  - Cú pháp: w-[value];
+  - Ví dụ: w-[33%], w-[50px],..
+
+---
+
+#### `height`:
