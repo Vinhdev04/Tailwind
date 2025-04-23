@@ -393,4 +393,21 @@ Series này sẽ giúp bạn:
 - set kích thước chiều cao tối thiểu cho phân tử
 
 #### `max-height`:
+
 - set kích thước chiều cao tối đa cho phân tử
+
+---
+
+### `Tailwind config (v3.4.17)` từ version 4 đã bỏ
+
+#### Cách 1: Thêm thủ công vào version 4 sau khi cài CLI
+
+- Cài tailwind CLI
+- Tạo file tailwind.config.js và cấu hình mở rộng `extend`
+- Trong file `input.css` trỏ file khai báo config, liên kết đường dẫn đến file config: `@config "../tailwind.config.js`
+
+#### Cách 2:
+
+- Thêm cấu hình mở rộng `extend` vào trong file `input.css`
+
+---
