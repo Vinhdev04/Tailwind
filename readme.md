@@ -304,14 +304,93 @@ Series này sẽ giúp bạn:
   - Dùng khi chiều rộng màn hình thay đổi do thanh cuộn,bàn phím ảo,....
 - 8. `w-lvw` <=> `width: 100lvw`
   - `lvw`: large viewport witdh
+  - Hiển thị lớn nhất có thể
   - Layout toàn màn hình, không bị co lại dù có thanh công cụ
 - 9. `w-svw` <=> `width: 100svw`
   - `svw`: small viewport witdh
+  - Hiển thị nhỏ nhất có thể
   - Layout toàn màn hình, bị co lại để tránh bị che khi hiện bàn phim/thanh địa chi,..
 - 10. `Tùy chỉnh giá trị width`
   - Cú pháp: w-[value];
   - Ví dụ: w-[33%], w-[50px],..
+- 11. `Width theo nội dung hoặc tự động`
+  - `w-auto`:
+    - Tự động, không bị set cứng giá trị width
+  - `w-min`: Co nhỏ nhất theo từ có độ dài nhất có thể mà không vỡ nội dung
+  - `w-max`: Mở rộng tối đa theo nội dung, khong bị rớt
+  - `w-fit`: Tự điều chỉnh phù hợp với nội dung
+  - `size(width,height)`: shorthand cho: width,height
+    - Vi dụ: size-32 <=> width: 8rem,height: 8rem
+  - `size-full,size-auto,size-px`
+    - Vi dụ: `size-full` <=> width: 100%,height: 100% so với thẻ cha
+    - Vi dụ: `size-px` <=> width: 1px,height: 1px
+    - Vi dụ: `size-auto` <=> width: auto, height: auto do trinh duyệt quy định,` mặc định: inline-block`
 
 ---
 
 #### `height`:
+
+- Thiết lập chiều cao cho phần tử
+- 1.  `h-<number>` <=> `height: calc(var(--spacing) * number)`
+
+  - Kích thước cố định
+  - Ví dụ: h-20 <=> height: 20 \* 4 = 80px
+
+- 2. `h-<fraction>` <=> `height: calc(<fraction> * 100%)`
+  - Chiếm bao nhiêu phần trăm so với thẻ cha chứa nó
+  - Ví dụ: h-1/2 <=> `height: 50%`
+  - Ví dụ: h-1/3 <=> `height: 33.33%`
+  - Chia theo phần nên ko linh hoạt nên sử dụng `h-[value];`
+- 3. `height-3xs -> 7xl` <=> `width: calc(var(--container-3xs))`
+- 4. `h-auto` <=> `height: auto`
+- 5. `h-full` <=> `height: 100%`
+  - Chiếm 100% chiều rộng thẻ cha
+- 6. `w-screen` <=> `height: 100vw`
+  - Chiếm 100% chiều rộng khung nhìn (viewport height)
+  - Hạn chế dùng với các giá trị cố định -> `vỡ giao diện do các giá trị cố định gây ra`
+  - `Thẻ inline ko có tác dụng`
+- 7. `w-dvh` <=> `height: 100dvh`
+  - `dvwh: diagram viewport height
+  - Dynamic tự động giữa lvh và svh
+  - Ưu tiên sử dụng cho `mobile`
+  - Dùng khi chiều rộng màn hình thay đổi do thanh cuộn,bàn phím ảo,....
+- 8. `w-lvh` <=> `height: 100lvw`
+  - `lvh`: large viewport height
+  - Hiển thị lớn nhất có thể
+  - Layout toàn màn hình, không bị co lại dù có thanh công cụ
+- 9. `h-svh` <=> `height: 100svh`
+  - `svh`: small viewport height
+  - Hiển thị nhỏ nhất có thể
+  - Layout toàn màn hình, bị co lại để tránh bị che khi hiện bàn phim/thanh địa chi,..
+- 10. `Tùy chỉnh giá trị height`
+  - Cú pháp: h-[value];
+  - Ví dụ: h-[33%], w-[50px],..
+- 11. `height theo nội dung hoặc tự động`
+  - `h-auto`:
+    - Tự động, không bị set cứng giá trị height
+  - `h-min`: Co nhỏ nhất theo từ có độ dài nhất có thể mà không vỡ nội dung
+  - `h-max`: Mở rộng tối đa theo nội dung, khong bị rớt
+  - `h-fit`: Tự điều chỉnh phù hợp với nội dung
+  - `size(width,height)`: shorthand cho: width,height
+    - Vi dụ: size-32 <=> height: 8rem,height: 8rem
+  - `size-full,size-auto,size-px`
+    - Vi dụ: `size-full` <=> height: 100%,height: 100% so với thẻ cha
+    - Vi dụ: `size-px` <=> height: 1px,height: 1px
+    - Vi dụ: `size-auto` <=> height: auto, height: auto do trinh duyệt quy định,` mặc định: inline-block`
+
+#### `min-width`:
+
+- set kích thước tối thiểu cho phân tử
+- Kể cả trinh duyệt co lại thì phần tư vân luôn ở kích thước min, không bị co lại thêm
+
+#### `max-width`:
+
+- set kích thước tối đa cho phân tử
+- Kể cả trinh duyệt có mở rộng thì phần tư vân luôn ở kích thước max, và nếu trinh duyệt co lại thì sẻ bi tác động
+
+#### `min-height`:
+
+- set kích thước chiều cao tối thiểu cho phân tử
+
+#### `max-height`:
+- set kích thước chiều cao tối đa cho phân tử
