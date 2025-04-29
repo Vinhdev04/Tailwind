@@ -415,3 +415,15 @@ Series này sẽ giúp bạn:
 ---
 
 ### `POSITIONING` trong Tailwind CSS
+
+- `inset-[number]`: top, right, bottom, left
+- `-inset-[number]`: -top, -right, -bottom, -left
+- `inset-x-[number]`: left, right
+- `inset-y-[number]`: top, bottom
+- `top, left, right, bottom-full`: top:100%, right:100%, bottom:100%, left:100%
+- `top, left, right, bottom-[value]`: top:[10px],....
+- `-top, -left, -right, -bottom-full`: top: -100%, right: -100%, bottom: -100%, left: -100%
+- `-top, -left, -right, -bottom-[value]`: top:[-10px],....
+- `....`
+
+---

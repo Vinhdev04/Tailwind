@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Position trong Tailwind CSS</title>
+  </head>
+  <body>
+    <h1 class="text-[#2233ff]">POSITIONING TRONG TAILWIND CSS</h1>
+    <!-- *Position: relative* -->
+    <!-- <div class="bg-amber-500 mb-5">
+      <div class="child w-40 h-20 bg-green-600 relative top-10 left-10"></div>
+    </div> -->
+
+    <!-- *Position: absolute* -->
+    <div class="bg-red-500 mb-3 relative w-60 h-32">
+      <div class="child w-10 h-10 bg-blue-600 absolute top-4 left-4"></div>
+    </div>
+
+    <!-- *Position: fixed -> cố định trên màn hình* -->
+    <div
+      class="fixed bottom-4 left-4 bg-amber-200 text-white p-2 rounded border"
+    >
+      Cố định bên dưới
+    </div>
+
+    <!-- *Position: sticky -> dính vào đâu khi cuốn tới* -->
+    <div class="bg-gray-200 p-4 h-[200vh]">
+      <div class="bg-pink-400 p-4 text-white sticky top-1">Sticky</div>
+      <p class="text-wrap">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt
+        earum alias tempora maiores perferendis laboriosam voluptates sed
+        consectetur at!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsa nesciunt earum alias tempora maiores perferendis laboriosam
+        voluptates sed consectetur at!Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Ipsa nesciunt earum alias tempora maiores perferendis
+        laboriosam voluptates sed consectetur at!Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Ipsa nesciunt earum alias tempora maiores
+        perferendis laboriosam voluptates sed consectetur at!Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Ipsa nesciunt earum alias tempora
+        maiores perferendis laboriosam voluptates sed consectetur at!Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ipsa nesciunt earum alias
+        tempora maiores perferendis laboriosam voluptates sed consectetur
+        at!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+        nesciunt earum alias tempora maiores perferendis laboriosam voluptates
+        sed consectetur at!Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Ipsa nesciunt earum alias tempora maiores perferendis laboriosam
+        voluptates sed consectetur at!
+      </p>
+    </div>
+
+    <!-- *inset: top,right,bottom,left* -->
+    <div class="relative size-30 bg-yellow-300">
+      <div class="bg-red-500 text-white absolute inset-2">Center</div>
+    </div>
+  </body>
+</html>
