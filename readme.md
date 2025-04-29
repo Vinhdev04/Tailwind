@@ -489,3 +489,28 @@ Series này sẽ giúp bạn:
 
 > ✅: Có / Hỗ trợ  
 > ❌: Không có / Không hỗ trợ
+
+---
+
+### 📘`Float` trong Tailwind CSS
+
+- Là thuộc tính dùng để đẩy phần tử `sang trái, phải` trong dòng
+- Cho phép các phần tử khác `bọc quanh nó`
+- `float-right`: Đẩy phần tử sang bên phải
+- `float-left`: Đẩy phần tử sang bên trái
+- `float-start`: Đẩy phần tử theo chiều bắt đầu (trái -> phải)
+- `float-end`: Đẩy phần tử heo chiều kết thúc (phải -> trái )
+- `float-none`: Không áp dụng float
+
+---
+
+### 📘`CLear` trong Tailwind CSS
+
+- `clear-right`: Không bị Đẩy phần tử sang bên phải
+- `clear-left`: Không bị Đẩy phần tử sang bên trái
+- `clear-start`: Không bị Đẩy phần tử theo chiều bắt đầu (trái -> phải)
+- `clear-end`: Không bị Đẩy phần tử heo chiều kết thúc (phải -> trái )
+- `clear-none`: Không áp dụng clear
+- `clear-both`: Áp dụng cả 2 hướng
+
+---
