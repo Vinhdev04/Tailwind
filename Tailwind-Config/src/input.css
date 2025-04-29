@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* @config "../tailwind.config.js"; */
+
+@theme {
+  --color-mau01: #2233cc;
+  --color-mau01-400: #22ffcc;
+  --color-mau01-800: #22ffff;
+}

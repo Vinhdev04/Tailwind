@@ -405,9 +405,13 @@ Series này sẽ giúp bạn:
 - Cài tailwind CLI
 - Tạo file tailwind.config.js và cấu hình mở rộng `extend`
 - Trong file `input.css` trỏ file khai báo config, liên kết đường dẫn đến file config: `@config "../tailwind.config.js`
+  ![](./Docs/Images/tailwind-config.png)
 
 #### Cách 2:
 
 - Thêm cấu hình mở rộng `extend` vào trong file `input.css`
+  ![](./Docs/Images/tailwind-config-02.png)
 
 ---
+
+### `POSITIONING` trong Tailwind CSS
