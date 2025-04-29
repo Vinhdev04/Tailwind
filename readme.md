@@ -203,7 +203,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### Cài đặt Tailwind CSS
+### 📘Cài đặt Tailwind CSS
 
 - <b>Sư dụng link CDN</b>
 - <b>Sử dụng Tailwind CLI </b>
@@ -216,7 +216,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### `Container` trong Tailwind CSS
+### 📘`Container` trong Tailwind CSS
 
 - <i>Dùng để giới hạn chiêu rộng tối đa của phần tử</i>
 - <i>Có thể tùy chinh theo ý</i>
@@ -225,7 +225,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### `Color` trong Tailwind CSS
+### 📘`Color` trong Tailwind CSS
 
 **Syntaxt:**
 
@@ -241,7 +241,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### `Margin & Padding` trong Tailwind CSS
+### 📘`Margin & Padding` trong Tailwind CSS
 
 **Syntaxt: `{property}{sides}-{size}`**
 
@@ -261,7 +261,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### `Space-x & Space-y` trong Tailwind CSS
+### 📘`Space-x & Space-y` trong Tailwind CSS
 
 - <i>Dùng để tạo khoảng cách giữa phần tử con</i>
 - <i>`space-x` <-> `margin-right`</i>
@@ -271,7 +271,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### `Sizing` trong Tailwind CSS
+### 📘`Sizing` trong Tailwind CSS
 
 #### `width`:
 
@@ -398,7 +398,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### `Tailwind config (v3.4.17)` từ version 4 đã bỏ
+### 📘`Tailwind config (v3.4.17)` từ version 4 đã bỏ:
 
 #### Cách 1: Thêm thủ công vào version 4 sau khi cài CLI
 
@@ -414,7 +414,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### `POSITIONING` trong Tailwind CSS
+### 📘`POSITIONING` trong Tailwind CSS:
 
 - `inset-[number]`: top, right, bottom, left
 - `-inset-[number]`: -top, -right, -bottom, -left
@@ -428,7 +428,7 @@ Series này sẽ giúp bạn:
 
 ---
 
-### `Z-INDEX` trong Tailwind CSS
+### 📘`Z-INDEX` trong Tailwind CSS:
 
 - `z-index`: là thuộc tính trong CSS, dùng đê xác định thứ tự `chồng lớp (stacking order)` của các phần tử
 - Một phần tử có `z-index` cao hơn sẻ `nằm phía trên` một phần tử có thấp hơn
@@ -437,3 +437,55 @@ Series này sẽ giúp bạn:
 - <b>Cách dùng:</b>
 - `z-[number]`
 - Đối với phân tử có nhiều `position`: thì `z-index càng cao sẻ ưu tiên`
+
+---
+
+### 📘`DISPLAY` trong Tailwind CSS:
+
+- `inline`: display: inline
+  - Hiên thị trên 1 dòng, không xuống dòng
+  - Không thể đặt được `width,height`
+  - Có thể được áp dụng `padding[top,bottom], margin[top,bottom]` nhưng không làm thay đổi chiều cao của phần tử inline
+- `inline-block`: display: inline-block
+  - Gần giống inline nhưng có thể đặt được `width,height`
+- `block`: display: block
+  - Chiếm hết chiêu rộng trình duyệt, phần tử khác sẻ xuống dòng
+- `flex`: display: flex
+  - Hiển thị như một khối linh hoạt
+  - Dễ dàng sắp xếp con theo hàng, cột, hỗ trợ căn chỉnh mạnh
+- `inline-flex`: display:inline-flex
+  - Như flex nhưng hiển thị trong dòng
+  - Tương tự flex, nhưng không chiếm toàn bộ dòng
+- `none`: display: none
+  - Ẩn hoàn toàn khỏi giao diện và DOM
+- `grid`: display: grid
+  - Hiển thị như một lưới
+  - Chia bố cục theo hàng và cột rõ ràng
+- `inline-grid`: display:inline-grid
+  - Như grid nhưng hiển thị trong dòng
+  - Tương tự grid, nhưng không chiếm toàn bộ dòng
+- `contents`: display: contents
+  - Chỉ hiển thị nội dung, không hiển thị phần tử
+  - Bản thân phần tử không hiển thị nhưng con vẫn hiển thị
+  - Dọn dẹp DOM
+- `inherit, initial, unset`:
+  - Giá trị kế thừa hoặc thiết lập mặc định
+  - Tùy thuộc vào phần tử cha hoặc đặt lại trạng thái mặc định của CSS
+- `hidden: none`: tương đuơng `display: none`
+
+---
+
+### 📘So sánh các thuộc tính CSS: `opacity: 0`, `display: none`, `visibility: hidden`
+
+| Type                 | `opacity: 0` | `display: none` | `visibility: hidden` |
+| -------------------- | ------------ | --------------- | -------------------- |
+| Ẩn khỏi giao diện    | ✅           | ✅              | ✅                   |
+| Chiếm không gian     | ✅           | ❌              | ✅                   |
+| Có thể tương tác     | ✅           | ❌              | ❌                   |
+| Ẩn phần tử con       | ❌           | ✅              | ✅                   |
+| Tính thừa kế         | ❌           | ❌              | ✅                   |
+| Hiển thị phần tử con | ❌           | ❌              | ✅                   |
+| Hỗ trợ Animations    | ✅           | ❌              | ✅                   |
+
+> ✅: Có / Hỗ trợ  
+> ❌: Không có / Không hỗ trợ
