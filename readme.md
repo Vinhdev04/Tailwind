@@ -427,3 +427,13 @@ Series này sẽ giúp bạn:
 - `....`
 
 ---
+
+### `Z-INDEX` trong Tailwind CSS
+
+- `z-index`: là thuộc tính trong CSS, dùng đê xác định thứ tự `chồng lớp (stacking order)` của các phần tử
+- Một phần tử có `z-index` cao hơn sẻ `nằm phía trên` một phần tử có thấp hơn
+- <b>>Điều kiện để sử dụng `z-index`:</b>
+- Phần tử phải có `positon != static`
+- <b>Cách dùng:</b>
+- `z-[number]`
+- Đối với phân tử có nhiều `position`: thì `z-index càng cao sẻ ưu tiên`

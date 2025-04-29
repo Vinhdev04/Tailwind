@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Z-index trong Tailwind CSS</title>
+  </head>
+  <body>
+    <h1 class="text-[#2233ff]">Z-index TRONG TAILWIND CSS</h1>
+    <div class="relative w-60 h-60 bg-pink-500 mb-5">
+      <div class="absolute top-4 left-4 w-20 h-20 bg-yellow-200 z-10">z-10</div>
+      <div
+        class="absolute top-10 left-10 w-20 h-20 bg-blue-300 z-20 text-white"
+      >
+        z-20
+      </div>
+    </div>
+
+    
+    <div class="relative w-60 h-60 bg-pink-500 mb-5">
+      <div class="absolute top-4 left-4 w-20 h-20 bg-yellow-200 z-20">z-20</div>
+      <div class="absolute top-10 left-10 w-20 h-20 bg-blue-300 z-10">z-10</div>
+    </div>
+  </body>
+</html>
